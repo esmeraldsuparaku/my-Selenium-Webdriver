@@ -1,0 +1,122 @@
+Exercise 2
+Problem to solve
+In the Selenium IDE, record a test that will perform the following steps:
+
+Go to https: //www.royalcaribbean.com/.
+In the 'Crusing to' field, select Transatlantic.
+In the 'Departing From' field, click Northern Europe.
+Click Amsterdam, Netherlands.
+Click the Search cruises button.
+Exercise 3
+Problem to solve
+In the Selenium IDE, record a test that will perform the following steps:
+
+Go to https: //www.istqb.org/.
+On the menu bar, click References.
+Under Articles which can be related to ISTQB® or used in ISTQB® Syllabi click on the link related to ISTQB®.
+Click on the link to the article Two Weeks to Better Testing this Summer.
+Exercise 4
+While discussing Selenium WebDriver we wrote our first test. It consisted of pinting the https://sdacademy.dev page title in the console.
+
+Problem to solve
+Modify the script so that it displays https://stackoverflow.com/ page title in the console.
+
+Exercise 5
+While discussing Selenium WebDriver, we mentioned the topic of assertion.
+
+Problem to solve
+Modify the test from the previous exercise to check that the StackOverflow page has the title: Stack Overflow - Where Developers Learn, Share, & Build Careers.
+
+Hint Use assertEquals().
+
+Exercise 6
+Problem to solve
+Write test:
+
+Go to https: //opensource-demo.orangehrmlive.com/.
+In the field 'Username' enter: Admin.
+In the 'Password' field enter: admin123.
+Click the Login button.
+Make sure the user has logged in.
+Hint
+
+Check if the URL after logging in is as expected.
+
+Exercise 7
+Problem to solve
+Write test:
+
+Go to https: //opensource-demo.orangehrmlive.com/.
+In the 'Username' field enter: WrongUsername.
+In the 'Password' field, enter: WrongPassword.
+Click the Login button.
+Check if the message about incorrect login details is displayed - Invalid credentials.
+Hint Use getText() method.
+
+Exercise 8
+Problem to solve
+Write test:
+
+Go to the website: * https: //www.bbc.com*.
+List the number of available links on the page in the console.
+Write the number of pictures available on the page in the console.
+Hint Use findElements() method.
+
+Exercise 9
+Problem to solve
+Write test:
+
+Go to https://google.com/.
+
+In the search field enter: Java.
+
+Select the option to go to search:
+
+Click Google Search
+or
+
+Click Enter key
+List the number of links found on the first page in the console.
+
+Exercise 10
+Problem to solve
+Write test:
+
+Go to https://google.com/.
+In the search field enter: Software Development Academy.
+Check if the page: https://sdacademy.pl is first in the results list.
+Hint 1 Retrieve all results to list.
+
+Hint 2 Then download the first item from the list.
+
+Exercise 12
+Problem to solve
+Write test:
+
+Go to: https://opensource-demo.orangehrmlive.com/.
+
+In 'Username' field enter: Admin.
+
+In 'Password' field enter: admin123.
+
+Click Login button.
+
+Click the PIM tab.
+
+Click the * dd* button.
+
+Fill out the form with the following information:
+
+First Name: Keanu
+Middle Name: Charles
+Last Name: Reeves
+Employee Id: 666
+Click the Save button.
+
+Check that:
+
+After creating a new employee, the user was redirected to the employee's details page.
+The displayed employee data page displays the data of the created employee.
+Hint Use: getAttribute() method
+
+Solution you can find here.
